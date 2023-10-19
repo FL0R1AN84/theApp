@@ -1,4 +1,4 @@
-```console
+```bash
 npx cap open android
 ```
 
