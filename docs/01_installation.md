@@ -1,10 +1,10 @@
 # Installation
 
-```console
+```bash
 npm install -g @ionic/cli@latest
 ```
 
-```console
+```bash
 npm ci
 ```
 

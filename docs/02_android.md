@@ -2,17 +2,17 @@
 
 For the first build (includes livereload) on local simulator devices
 
-```console
+```bash
 npm run build
 ```
 
 ### Requirements
 
-```console
+```bash
 npm install @capacitor/android
 ```
 
-```console
+```bash
 npx cap add android
 ```
 
@@ -21,13 +21,13 @@ npx cap add android
   - Java version can be changed in Android Studio -> [read more](04_java.md)
 - Android Studio
 
-```console
+```bash
 brew install --cask android-studio
 ```
 
 .zshrc
 
-```zsh
+```text
 # Android SDK
 alias adb="/Users/$USER/Library/Android/sdk/platform-tools/./adb"
 export ANDROID_SDK_ROOT="/Users/$USER/Library/Android/sdk"
@@ -39,7 +39,7 @@ export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jbr/Contents/Home
 
 ### Device simulator
 
-```console
+```bash
 npx cap run android
 ```
 

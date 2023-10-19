@@ -4,7 +4,7 @@
 
 For the first build (includes livereload) on local simulator devices
 
-```console
+```bash
 npm run build
 ```
 
@@ -12,42 +12,42 @@ npm run build
 
 - Ruby 3.2.2
 
-```console
+```bash
 brew install rbenv ruby-build
 ```
 
 .zshrc
 
-```zsh
+```text
 # Ruby environment
 eval "$(rbenv init - zsh)"
 ```
 
-```console
+```bash
 rbenv install 3.2.2
 ```
 
-```console
+```bash
 rbenv global 3.2.2
 ```
 
 - CocoaPods
 
-```console
+```bash
 brew install cocoapods
 ```
 
-```console
+```bash
 npm install @capacitor/ios
 ```
 
-```console
+```bash
 npx cap add ios
 ```
 
 ### Device simulator
 
-```console
+```bash
 npx cap run ios
 ```
 
