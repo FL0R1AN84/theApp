@@ -51,4 +51,6 @@ npx cap add ios
 npx cap run ios
 ```
 
+---
+
 [back to Index](../README.md)
