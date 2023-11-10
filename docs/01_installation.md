@@ -8,4 +8,6 @@ npm install -g @ionic/cli@latest
 npm ci
 ```
 
+---
+
 [back to Index](../README.md)
