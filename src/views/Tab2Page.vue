@@ -1,18 +1,14 @@
 <template>
   <ion-page>
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>Tab 2</ion-title>
-      </ion-toolbar>
-    </ion-header>
+    <HeaderDefault title="Modal" />
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Tab 2</ion-title>
+          <ion-title size="large">Modal</ion-title>
         </ion-toolbar>
       </ion-header>
 
-      <ExploreContainer name="Tab 2 page" />
+      <ExploreContainer name="Open as Modal" />
     </ion-content>
   </ion-page>
 </template>
@@ -26,4 +22,5 @@ import {
   IonContent
 } from '@ionic/vue'
 import ExploreContainer from '@/components/ExploreContainer.vue'
+import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 </script>
