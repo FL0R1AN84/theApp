@@ -8,7 +8,7 @@
         </ion-toolbar>
       </ion-header>
 
-      <ExploreContainer name="Open as Modal" />
+      <ModalCard title="Open as Modal" />
     </ion-content>
   </ion-page>
 </template>
@@ -21,6 +21,6 @@ import {
   IonTitle,
   IonContent
 } from '@ionic/vue'
-import ExploreContainer from '@/components/ExploreContainer.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
+import ModalCard from '@/components/ModalCard.vue'
 </script>
