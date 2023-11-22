@@ -46,15 +46,13 @@
 
 <script setup lang="ts">
 import {
-  IonButtons,
   IonButton,
   IonModal,
   IonHeader,
   IonContent,
   IonToolbar,
   IonTitle,
-  IonPage,
-  modalController
+  IonPage
 } from '@ionic/vue'
 import HeaderModal from './elements/HeaderModal.vue'
 
@@ -63,10 +61,6 @@ defineProps<{
 }>()
 
 const presentingElement = null
-
-const dismiss = () => {
-  modalController.dismiss()
-}
 </script>
 
 <style scoped>
