@@ -32,10 +32,5 @@ import {
   IonPage,
   IonRouterOutlet
 } from '@ionic/vue'
-import {
-  chevronUpOutline,
-  chevronDownOutline,
-  square,
-  triangle
-} from 'ionicons/icons'
+import { chevronUpOutline, chevronDownOutline, triangle } from 'ionicons/icons'
 </script>
