@@ -13,14 +13,7 @@
         trigger="open-modal"
         :presenting-element="presentingElement"
       >
-        <ion-header>
-          <ion-toolbar>
-            <ion-title>Modal</ion-title>
-            <ion-buttons slot="start">
-              <ion-button @click="dismiss()">Close</ion-button>
-            </ion-buttons>
-          </ion-toolbar>
-        </ion-header>
+        <HeaderModal title="Modal" />
 
         <ion-content class="ion-padding">
           <ion-range
@@ -63,6 +56,7 @@ import {
   IonPage,
   modalController
 } from '@ionic/vue'
+import HeaderModal from './elements/HeaderModal.vue'
 
 defineProps<{
   title: string
