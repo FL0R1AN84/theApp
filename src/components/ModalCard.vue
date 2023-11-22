@@ -42,15 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import {
-  IonButton,
-  IonModal,
-  IonHeader,
-  IonContent,
-  IonToolbar,
-  IonTitle,
-  IonPage
-} from '@ionic/vue'
+import { IonButton, IonModal, IonContent, IonPage } from '@ionic/vue'
 import HeaderModal from './elements/HeaderModal.vue'
 import HeaderDefault from './elements/HeaderDefault.vue'
 
