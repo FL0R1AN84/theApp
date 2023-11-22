@@ -1,13 +1,10 @@
 <template>
   <ion-page ref="page">
-    <ion-header>
-      <ion-toolbar>
-        <ion-title>App</ion-title>
-      </ion-toolbar>
-    </ion-header>
+    <HeaderDefault title="Modal" />
     <ion-content class="ion-padding">
-      <ion-button id="open-modal" class="center-button">{{ title }}</ion-button>
-
+      <ion-button id="open-modal" class="center-button"
+        >{{ title }}
+      </ion-button>
       <ion-modal
         ref="modal"
         trigger="open-modal"
@@ -55,6 +52,7 @@ import {
   IonPage
 } from '@ionic/vue'
 import HeaderModal from './elements/HeaderModal.vue'
+import HeaderDefault from './elements/HeaderDefault.vue'
 
 defineProps<{
   title: string
