@@ -14,13 +14,13 @@
 </template>
 
 <script setup lang="ts">
-import {
-  IonPage,
-  IonHeader,
-  IonToolbar,
-  IonTitle,
-  IonContent
-} from '@ionic/vue'
-import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import ModalCard from '@/components/ModalCard.vue'
+import HeaderDefault from '@/components/elements/HeaderDefault.vue'
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar
+} from '@ionic/vue'
 </script>

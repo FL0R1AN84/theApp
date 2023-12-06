@@ -24,13 +24,13 @@
 
 <script setup lang="ts">
 import {
+  IonIcon,
+  IonLabel,
+  IonPage,
+  IonRouterOutlet,
   IonTabBar,
   IonTabButton,
-  IonTabs,
-  IonLabel,
-  IonIcon,
-  IonPage,
-  IonRouterOutlet
+  IonTabs
 } from '@ionic/vue'
-import { chevronUpOutline, chevronDownOutline, triangle } from 'ionicons/icons'
+import { chevronDownOutline, chevronUpOutline, triangle } from 'ionicons/icons'
 </script>

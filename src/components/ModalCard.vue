@@ -42,9 +42,9 @@
 </template>
 
 <script setup lang="ts">
-import { IonButton, IonModal, IonContent, IonPage } from '@ionic/vue'
-import HeaderModal from './elements/HeaderModal.vue'
+import { IonButton, IonContent, IonModal, IonPage } from '@ionic/vue'
 import HeaderDefault from './elements/HeaderDefault.vue'
+import HeaderModal from './elements/HeaderModal.vue'
 
 defineProps<{
   title: string
