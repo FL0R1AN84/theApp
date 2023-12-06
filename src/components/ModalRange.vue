@@ -2,10 +2,13 @@
   <ion-page ref="page">
     <HeaderDefault title="Modal" />
     <ion-content class="ion-padding">
-      <ion-button id="open-card-modal" class="center-button"
-        >{{ title }}
-      </ion-button>
-      <ion-modal ref="modal" trigger="open-card-modal">
+      <ion-button :id="trigger" class="center-button">{{ title }} </ion-button>
+      <ion-modal
+        ref="modal"
+        :trigger="trigger"
+        :initial-breakpoint="initialBreakpoint"
+        :breakpoints="breakpoints"
+      >
         <HeaderModal title="Modal" />
 
         <ion-content class="ion-padding">
@@ -44,6 +47,9 @@ import HeaderModal from './elements/HeaderModal.vue'
 
 defineProps<{
   title: string
+  trigger: string
+  initialBreakpoint?: number
+  breakpoints?: Array<number>
 }>()
 </script>
 
