@@ -4,17 +4,17 @@
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Modal</ion-title>
+          <ion-title size="large">Card</ion-title>
         </ion-toolbar>
       </ion-header>
 
-      <ModalCard title="Open as Modal" />
+      <ModalRange title="Open as Card Modal" trigger="open-card-modal" />
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import ModalCard from '@/components/ModalCard.vue'
+import ModalRange from '@/components/ModalRange.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import {
   IonContent,
