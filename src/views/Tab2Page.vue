@@ -1,6 +1,6 @@
 <template>
   <ion-page>
-    <HeaderDefault title="Modal" />
+    <HeaderDefault title="Sheet" />
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
@@ -8,13 +8,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ModalCard title="Open as Modal" />
+      <ModalSheet title="Open as Modal" />
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import ModalCard from '@/components/ModalCard.vue'
+import ModalSheet from '@/components/ModalSheet.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import {
   IonContent,
