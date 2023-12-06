@@ -2,7 +2,7 @@
   <ion-page ref="page">
     <HeaderDefault title="Modal" />
     <ion-content class="ion-padding">
-      <ion-button :id="trigger" class="center-button">{{ title }} </ion-button>
+      <ion-button :id="trigger" class="container">{{ title }} </ion-button>
       <ion-modal
         ref="modal"
         :trigger="trigger"
@@ -42,7 +42,6 @@
 
 <script setup lang="ts">
 import { IonButton, IonContent, IonModal, IonPage } from '@ionic/vue'
-import HeaderDefault from './elements/HeaderDefault.vue'
 import HeaderModal from './elements/HeaderModal.vue'
 
 defineProps<{

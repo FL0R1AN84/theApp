@@ -4,7 +4,7 @@
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Modal</ion-title>
+          <ion-title size="large">Sheet</ion-title>
         </ion-toolbar>
       </ion-header>
 
