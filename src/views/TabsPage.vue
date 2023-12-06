@@ -4,18 +4,18 @@
       <ion-router-outlet></ion-router-outlet>
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1" href="/tabs/tab1">
-          <ion-icon aria-hidden="true" :icon="triangle" />
-          <ion-label>Tab 1</ion-label>
-        </ion-tab-button>
-
-        <ion-tab-button tab="tab2" href="/tabs/tab2">
           <ion-icon aria-hidden="true" :icon="chevronUpOutline" />
           <ion-label>Card</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab3" href="/tabs/tab3">
+        <ion-tab-button tab="tab2" href="/tabs/tab2">
           <ion-icon aria-hidden="true" :icon="chevronDownOutline" />
           <ion-label>Sheet</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="tab3" href="/tabs/tab3">
+          <ion-icon aria-hidden="true" :icon="calculatorOutline" />
+          <ion-label>Calc</ion-label>
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
@@ -24,13 +24,17 @@
 
 <script setup lang="ts">
 import {
+  IonIcon,
+  IonLabel,
+  IonPage,
+  IonRouterOutlet,
   IonTabBar,
   IonTabButton,
-  IonTabs,
-  IonLabel,
-  IonIcon,
-  IonPage,
-  IonRouterOutlet
+  IonTabs
 } from '@ionic/vue'
-import { chevronUpOutline, chevronDownOutline, triangle } from 'ionicons/icons'
+import {
+  calculatorOutline,
+  chevronDownOutline,
+  chevronUpOutline
+} from 'ionicons/icons'
 </script>

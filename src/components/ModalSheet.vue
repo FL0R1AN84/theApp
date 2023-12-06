@@ -2,10 +2,15 @@
   <ion-page ref="page">
     <HeaderDefault title="Modal" />
     <ion-content class="ion-padding">
-      <ion-button id="open-card-modal" class="center-button"
+      <ion-button id="open-sheed-modal" class="center-button"
         >{{ title }}
       </ion-button>
-      <ion-modal ref="modal" trigger="open-card-modal">
+      <ion-modal
+        ref="modal"
+        trigger="open-sheed-modal"
+        :initial-breakpoint="0.25"
+        :breakpoints="[0, 0.25, 0.5, 0.75]"
+      >
         <HeaderModal title="Modal" />
 
         <ion-content class="ion-padding">
