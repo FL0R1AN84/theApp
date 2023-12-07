@@ -52,13 +52,4 @@ defineProps<{
 }>()
 </script>
 
-<style scoped>
-.center-button {
-  text-align: center;
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-</style>
+<style scoped></style>
