@@ -1,7 +1,6 @@
 <template>
   <HeaderDefault title="Modal" />
-
-  <ion-button :id="trigger">{{ title }} </ion-button>
+  <ButtonDefault :id="trigger" :title="title" />
   <ion-modal
     ref="modal"
     :trigger="trigger"
@@ -29,7 +28,8 @@
 </template>
 
 <script setup lang="ts">
-import { IonButton, IonContent, IonModal } from '@ionic/vue'
+import { IonContent, IonModal } from '@ionic/vue'
+import ButtonDefault from './elements/ButtonDefault.vue'
 import HeaderModal from './elements/HeaderModal.vue'
 
 defineProps<{
