@@ -7,14 +7,11 @@
           <ion-title size="large">Card</ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <ModalRange title="Open as Card Modal" trigger="open-card-modal" />
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import ModalRange from '@/components/ModalRange.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import {
   IonContent,
