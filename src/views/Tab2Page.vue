@@ -7,10 +7,10 @@
           <ion-title size="large">Modal</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-content class="ion-padding ion-justify-content-between">
-        <ModalRange title="Open as Card Modal" trigger="open-modal" />
+      <ion-content class="ion-padding">
+        <ModalRange title="▲ Modal up ▲" trigger="open-modal" />
         <ModalRange
-          title="Open as Sheet Modal"
+          title="▼ Modal down ▼"
           trigger="open-bp-modal"
           :initial-breakpoint="0.25"
           :breakpoints="[0, 0.25, 0.5, 0.75]"
