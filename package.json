@@ -1,7 +1,7 @@
 {
   "name": "theApp",
   "private": true,
-  "version": "0.3.1",
+  "version": "0.5.0‚",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,6 +23,7 @@
     "@capacitor/status-bar": "5.0.6",
     "@ionic/vue": "^7.6.0",
     "@ionic/vue-router": "^7.6.0",
+    "@vueuse/core": "^10.7.0",
     "ionicons": "^7.2.1",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
