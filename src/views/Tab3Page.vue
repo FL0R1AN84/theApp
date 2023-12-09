@@ -7,8 +7,9 @@
           <ion-title size="large">Calc</ion-title>
         </ion-toolbar>
       </ion-header>
-
-      <CalculateAlert title="Calc&ALert" trigger="open-card-modal" />
+      <ion-content class="ion-padding">
+        <CalculateAlert title="Calc&ALert" trigger="open-card-modal" />
+      </ion-content>
     </ion-content>
   </ion-page>
 </template>

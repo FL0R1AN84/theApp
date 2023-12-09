@@ -9,8 +9,8 @@
         </ion-tab-button>
 
         <ion-tab-button tab="tab2" href="/tabs/tab2">
-          <ion-icon aria-hidden="true" :icon="chevronDownOutline" />
-          <ion-label>Sheet</ion-label>
+          <ion-icon aria-hidden="true" :icon="chevronExpandOutline" />
+          <ion-label>Modal</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="tab3" href="/tabs/tab3">
@@ -34,7 +34,7 @@ import {
 } from '@ionic/vue'
 import {
   calculatorOutline,
-  chevronDownOutline,
+  chevronExpandOutline,
   chevronUpOutline
 } from 'ionicons/icons'
 </script>
