@@ -1,7 +1,7 @@
 <template>
   <ion-header>
     <ion-toolbar>
-      <ion-title> {{ title }}</ion-title>
+      <ion-title>{{ title }}</ion-title>
     </ion-toolbar>
   </ion-header>
 </template>
