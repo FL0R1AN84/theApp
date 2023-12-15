@@ -17,5 +17,11 @@
 <script setup lang="ts">
 import CalculateAlert from '@/components/CalculateAlert.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
-import { IonContent, IonPage } from '@ionic/vue'
+import {
+  IonContent,
+  IonHeader,
+  IonPage,
+  IonTitle,
+  IonToolbar
+} from '@ionic/vue'
 </script>
