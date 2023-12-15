@@ -1,5 +1,4 @@
 <template>
-  <HeaderDefault title="Calc" />
   <ion-item>
     <ButtonDefault
       id="calc-alert"
@@ -29,7 +28,6 @@
 import { IonAlert, IonBadge, IonItem } from '@ionic/vue'
 import { ref, watch } from 'vue'
 import ButtonDefault from './elements/ButtonDefault.vue'
-import HeaderDefault from './elements/HeaderDefault.vue'
 
 const clickCounter = ref(0)
 
