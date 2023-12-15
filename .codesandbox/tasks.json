@@ -19,38 +19,31 @@
     },
     "dev:android": {
       "name": "dev:android",
-      "command": "npm run dev:android",
-      "runAtStart": false
+      "command": "npm run dev:android"
     },
     "dev:ios": {
       "name": "dev:ios",
-      "command": "npm run dev:ios",
-      "runAtStart": false
+      "command": "npm run dev:ios"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "preview": {
       "name": "preview",
-      "command": "npm run preview",
-      "runAtStart": false
+      "command": "npm run preview"
     },
     "test:e2e": {
       "name": "test:e2e",
-      "command": "npm run test:e2e",
-      "runAtStart": false
+      "command": "npm run test:e2e"
     },
     "test:unit": {
       "name": "test:unit",
-      "command": "npm run test:unit",
-      "runAtStart": false
+      "command": "npm run test:unit"
     },
     "lint": {
       "name": "lint",
-      "command": "npm run lint",
-      "runAtStart": false
+      "command": "npm run lint"
     }
   }
 }
