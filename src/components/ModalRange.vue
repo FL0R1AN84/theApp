@@ -1,5 +1,4 @@
 <template>
-  <HeaderDefault title="Modal" />
   <ButtonDefault :id="trigger" :title="title" />
   <ion-modal
     ref="modal"
@@ -28,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonModal } from '@ionic/vue'
+import { IonContent, IonModal, IonRange } from '@ionic/vue'
 import ButtonDefault from './elements/ButtonDefault.vue'
 import HeaderModal from './elements/HeaderModal.vue'
 

@@ -10,7 +10,14 @@
 </template>
 
 <script setup lang="ts">
-import { IonHeader, IonTitle, IonToolbar, modalController } from '@ionic/vue'
+import {
+  IonButton,
+  IonButtons,
+  IonHeader,
+  IonTitle,
+  IonToolbar,
+  modalController
+} from '@ionic/vue'
 
 defineProps<{
   title: string
