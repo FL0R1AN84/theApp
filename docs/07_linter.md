@@ -26,9 +26,8 @@ Prettier config file: [.prettierrc](../../.prettierrc)
 
 ```JSON
 {
-  "semi": false,
+    "semi": false,
     "singleQuote": true,
-    "printWidth": 80,
     "trailingComma": "none"
 }
 ```

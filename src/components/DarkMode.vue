@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonButton, IonIcon } from '@ionic/vue'
+import { IonButton, IonContent, IonIcon } from '@ionic/vue'
 import { useDark } from '@vueuse/core'
 import { moonOutline, sunnyOutline } from 'ionicons/icons'
 
