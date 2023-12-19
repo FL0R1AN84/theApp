@@ -10,8 +10,12 @@
 
         <ion-tab-button tab="tab2" href="/tabs/tab2">
           <ion-fab>
-            <ion-fab-button>
-              <ion-icon aria-hidden="true" :icon="chevronExpandOutline" />
+            <ion-fab-button :color="tabFocus ? 'primary' : 'dark'">
+              <ion-icon
+                aria-hidden="true"
+                :icon="chevronExpandOutline"
+                color="light"
+              />
             </ion-fab-button>
           </ion-fab>
         </ion-tab-button>
@@ -26,6 +30,7 @@
 </template>
 
 <script setup lang="ts">
+import router from '@/router'
 import {
   IonFab,
   IonFabButton,
@@ -42,10 +47,26 @@ import {
   chevronExpandOutline,
   contrastOutline
 } from 'ionicons/icons'
+import { computed } from 'vue'
+
+const tabFocus = computed(() => {
+  return router.currentRoute.value.path === '/tabs/tab2'
+})
+
+console.log('tabFocus :', tabFocus)
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 ion-tab-bar {
   height: 75px;
+}
+
+ion-fab-button {
+  --background: var(--ion-color-dark);
+  transition: transform 0.2s ease-in-out;
+
+  &:active {
+    transform: scale(0.95);
+  }
 }
 </style>
