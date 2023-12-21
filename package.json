@@ -1,7 +1,7 @@
 {
   "name": "theApp",
   "private": true,
-  "version": "1.1.0‚",
+  "version": "1.2.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -21,11 +21,11 @@
     "@capacitor/ios": "^5.6.0",
     "@capacitor/keyboard": "5.0.7",
     "@capacitor/status-bar": "5.0.6",
-    "@ionic/vue": "^7.6.1",
-    "@ionic/vue-router": "^7.6.1",
+    "@ionic/vue": "^7.6.2",
+    "@ionic/vue-router": "^7.6.2",
     "@vueuse/core": "^10.7.0",
     "ionicons": "^7.2.2",
-    "vue": "^3.3.12",
+    "vue": "^3.3.13",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
@@ -37,15 +37,15 @@
     "cypress": "^13.6.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-prettier": "^5.1.1",
     "eslint-plugin-vue": "^9.19.2",
     "jsdom": "^23.0.1",
     "prettier": "^3.1.1",
     "sass": "^1.69.5",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
-    "vitest": "^1.0.4",
-    "vue-tsc": "^1.8.25"
+    "vitest": "^1.1.0",
+    "vue-tsc": "^1.8.26"
   },
   "description": "An Ionic project"
 }

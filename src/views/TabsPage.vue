@@ -9,20 +9,30 @@
         </ion-tab-button>
 
         <ion-tab-button tab="tab2" href="/tabs/tab2">
+          <ion-icon aria-hidden="true" :icon="chevronExpandOutline" />
+          <ion-label>Modal</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="tab3" href="/tabs/tab3">
           <ion-fab>
             <ion-fab-button :color="tabFocus ? 'primary' : 'dark'">
               <ion-icon
                 aria-hidden="true"
-                :icon="chevronExpandOutline"
+                :icon="navigateOutline"
                 color="light"
               />
             </ion-fab-button>
           </ion-fab>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab3" href="/tabs/tab3">
+        <ion-tab-button tab="tab4" href="/tabs/tab4">
           <ion-icon aria-hidden="true" :icon="calculatorOutline" />
           <ion-label>Calc</ion-label>
+        </ion-tab-button>
+
+        <ion-tab-button tab="tab5" href="/tabs/tab5">
+          <ion-icon aria-hidden="true" :icon="qrCodeOutline" />
+          <ion-label>Scanner</ion-label>
         </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
@@ -32,8 +42,6 @@
 <script setup lang="ts">
 import router from '@/router'
 import {
-  IonFab,
-  IonFabButton,
   IonIcon,
   IonLabel,
   IonPage,
@@ -45,12 +53,14 @@ import {
 import {
   calculatorOutline,
   chevronExpandOutline,
-  contrastOutline
+  contrastOutline,
+  navigateOutline,
+  qrCodeOutline
 } from 'ionicons/icons'
 import { computed } from 'vue'
 
 const tabFocus = computed(() => {
-  return router.currentRoute.value.path === '/tabs/tab2'
+  return router.currentRoute.value.path === '/tabs/tab3'
 })
 
 console.log('tabFocus :', tabFocus)
