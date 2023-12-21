@@ -42,6 +42,8 @@
 <script setup lang="ts">
 import router from '@/router'
 import {
+  IonFab,
+  IonFabButton,
   IonIcon,
   IonLabel,
   IonPage,
