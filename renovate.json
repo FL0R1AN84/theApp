@@ -4,12 +4,8 @@
     "develop"
   ],
   "extends": [
-    "config:recommended",
-    ":preserveSemverRanges",
-    ":dependencyDashboard",
-    ":rebaseStalePrs",
-    ":enableVulnerabilityAlertsWithLabel('security')",
-    "group:recommended"
+    "config:base",
+    ":pinAllExceptPeerDependencies"
   ],
   "packageRules": [
     {
@@ -17,7 +13,6 @@
         "minor",
         "patch"
       ],
-      "matchCurrentVersion": "!/^0/",
       "automerge": true
     }
   ]
