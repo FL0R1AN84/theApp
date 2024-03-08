@@ -1,5 +1,5 @@
-baseBranches: ['develop']
 {
+baseBranches: ['develop']
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
