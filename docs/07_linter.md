@@ -2,7 +2,7 @@
 
 For more information about configuration and rules, show [ESLint Documentation](https://eslint.org/docs/latest/)
 
-ESLint config file: [.eslintrc.js](../../.eslintrc.js)
+ESLint config file: [.eslintrc.cjs](../../.eslintrc.cjs)
 
 Vue3-essential is set by default.
 
