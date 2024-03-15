@@ -1,13 +1,15 @@
 {
   "name": "theApp",
   "private": true,
-  "version": "1.3.8",
+  "version": "1.4.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "dev:android": "npx cap run android",
     "dev:ios": "npx cap run ios",
     "build": "vue-tsc && vite build",
+    "build:android": "npx cap sync android",
+    "build:ios": "npx cap sync ios",
     "preview": "vite preview",
     "test:e2e": "cypress run",
     "test:unit": "vitest",
@@ -26,10 +28,12 @@
     "@vueuse/core": "10.9.0",
     "ionicons": "7.2.2",
     "vue": "3.4.21",
+    "vue-barcode-reader": "^1.0.3",
     "vue-router": "4.3.0"
   },
   "devDependencies": {
     "@capacitor/cli": "5.7.2",
+    "@types/vue-barcode-reader": "^0.0.3",
     "@vitejs/plugin-legacy": "5.3.2",
     "@vitejs/plugin-vue": "5.0.4",
     "@vue/eslint-config-typescript": "13.0.0",
