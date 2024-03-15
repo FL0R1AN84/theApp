@@ -8,19 +8,19 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <ion-text>Barcode Scanner is coming soon</ion-text>
+        <BarcodeScanner />
       </ion-content>
     </ion-content>
   </ion-page>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
+import BarcodeScanner from '@/components/BarcodeScanner.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import {
   IonContent,
   IonHeader,
   IonPage,
-  IonText,
   IonTitle,
   IonToolbar
 } from '@ionic/vue'
