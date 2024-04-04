@@ -10,25 +10,10 @@ npm run build
 
 ### Requirements
 
-- Ruby 3.2.2
+- Ruby
 
 ```bash
-brew install rbenv ruby-build
-```
-
-.zshrc
-
-```text
-# Ruby environment
-eval "$(rbenv init - zsh)"
-```
-
-```bash
-rbenv install 3.2.2
-```
-
-```bash
-rbenv global 3.2.2
+brew install ruby
 ```
 
 - CocoaPods
