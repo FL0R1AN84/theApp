@@ -8,6 +8,12 @@ Updates the native plugins and dependencies
 npx cap update
 ```
 
+Capacitor update to next major version
+
+```bash
+npx cap migrate
+```
+
 ## npm-check-updates
 
 ### Installation
@@ -43,6 +49,37 @@ Check global installed packages for updates
 ```bash
 ncu -g
 ````
+
+## Recommendation
+
+### Renovate
+
+[Renovate documentation](https://docs.renovatebot.com/)
+
+renovate.json
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranches": [
+    "develop"
+  ],
+  "extends": [
+    "config:base",
+    ":pinAllExceptPeerDependencies"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": true
+    }
+  ]
+}
+
+```
 
 ---
 
