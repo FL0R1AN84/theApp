@@ -27,7 +27,7 @@
     "@ionic/vue-router": "8.0.0",
     "@vueuse/core": "10.9.0",
     "ionicons": "7.3.1",
-    "vue": "3.4.23",
+    "vue": "3.4.24",
     "vue-barcode-reader": "1.0.3",
     "vue-router": "4.3.2"
   },
