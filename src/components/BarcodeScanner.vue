@@ -4,14 +4,23 @@
       @decode="(a, b, c) => onDecode(a, b, c)"
       @loaded="() => onLoaded()"
     ></StreamBarcodeReader>
-    Input Value: {{ text || 'Nothing' }}
+    <ion-item :color="text ? 'success' : 'danger'">
+      <span class="ion-margin-end">Input value:</span>
+      <span>{{ text || 'Nothing' }}</span></ion-item
+    >
+    <ion-fab slot="fixed" horizontal="end" vertical="bottom">
+      <ion-fab-button @click="toggleFlashlight">
+        <ion-icon :icon="flash"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
   </ion-content>
 </template>
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { IonContent } from '@ionic/vue'
+import { IonContent, IonFab, IonFabButton, IonIcon } from '@ionic/vue'
 import { StreamBarcodeReader } from 'vue-barcode-reader'
+import { flash } from 'ionicons/icons'
 
 const text = ref('')
 let id: any = null
