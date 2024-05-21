@@ -8,7 +8,7 @@
       <span class="ion-margin-end">Input value:</span>
       <span>{{ text || 'Nothing' }}</span></ion-item
     >
-    <ion-fab slot="fixed" horizontal="end" vertical="bottom">
+    <ion-fab class="ion-margin-top" horizontal="end">
       <ion-fab-button @click="toggleFlashlight">
         <ion-icon :icon="flash"></ion-icon>
       </ion-fab-button>
