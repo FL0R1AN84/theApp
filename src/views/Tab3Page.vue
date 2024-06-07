@@ -8,20 +8,20 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <ion-text>Mapbox is coming soon</ion-text>
+        <MapBox />
       </ion-content>
     </ion-content>
   </ion-page>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import {
   IonContent,
   IonHeader,
   IonPage,
-  IonText,
   IonTitle,
   IonToolbar
 } from '@ionic/vue'
+import MapBox from '@/components/MapBox.vue'
 </script>
