@@ -30,7 +30,7 @@
     "mapbox-gl": "3.4.0",
     "vue": "3.4.27",
     "vue-barcode-reader": "1.0.3",
-    "vue-router": "4.3.2"
+    "vue-router": "4.3.3"
   },
   "devDependencies": {
     "@capacitor/cli": "6.0.0",
