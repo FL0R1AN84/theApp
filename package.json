@@ -28,7 +28,7 @@
     "@vueuse/core": "10.11.0",
     "ionicons": "7.4.0",
     "mapbox-gl": "3.4.0",
-    "vue": "3.4.29",
+    "vue": "3.4.30",
     "vue-barcode-reader": "1.0.3",
     "vue-router": "4.4.0"
   },
