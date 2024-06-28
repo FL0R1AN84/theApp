@@ -8,7 +8,7 @@
   />
 </template>
 
-<script setup>
+<script lang="ts" setup>
 import { ref } from 'vue'
 import { MapboxMap } from '@studiometa/vue-mapbox-gl'
 
