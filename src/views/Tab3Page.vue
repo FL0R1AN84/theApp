@@ -7,7 +7,7 @@
           <ion-title size="large">Mapbox</ion-title>
         </ion-toolbar>
       </ion-header>
-      <ion-content class="ion-padding">
+      <ion-content>
         <MapBox />
       </ion-content>
     </ion-content>
