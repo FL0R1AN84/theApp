@@ -8,7 +8,12 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <BarcodeScanner />
+        <BarcodeScanner
+          :breakpoints="[0, 1]"
+          :initial-breakpoint="1"
+          title="Scanner"
+          trigger="open-scanner"
+        />
       </ion-content>
     </ion-content>
   </ion-page>
