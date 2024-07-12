@@ -3,6 +3,7 @@
     ref="modal"
     :breakpoints="breakpoints"
     :initial-breakpoint="initialBreakpoint"
+    :is-open="true"
     :trigger="trigger"
   >
     <HeaderModal title="Scanner" />
