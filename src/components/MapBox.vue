@@ -9,6 +9,7 @@
 </template>
 
 <script lang="ts" setup>
+import 'mapbox-gl/dist/mapbox-gl.css'
 import { ref } from 'vue'
 import { MapboxMap } from '@studiometa/vue-mapbox-gl'
 

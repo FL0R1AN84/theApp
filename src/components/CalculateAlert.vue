@@ -4,27 +4,29 @@
       id="calc-alert"
       :color="clickCounter > 0 ? 'danger' : 'light'"
       :disabled="clickCounter < 0"
+      class="ion-padding"
       title="-"
       @click="clickCounter--"
     />
     <ButtonDefault
       :color="clickCounter >= 0 ? 'success' : 'light'"
+      class="ion-padding"
       title="+"
       @click="clickCounter++"
     />
-    <ion-badge slot="end">{{ clickCounter }}</ion-badge>
+    <ion-badge slot="end" class="ion-padding">{{ clickCounter }}</ion-badge>
   </ion-item>
   <ion-alert
     v-if="clickCounter < 1"
-    trigger="calc-alert"
-    header="Stop clicking"
-    sub-header="Less than zero is not possible"
-    message="So I add +1 again"
     :buttons="alertButtons"
+    header="Stop clicking"
+    message="So I add +1 again"
+    sub-header="Less than zero is not possible"
+    trigger="calc-alert"
   ></ion-alert>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import { IonAlert, IonBadge, IonItem } from '@ionic/vue'
 import { ref, watch } from 'vue'
 import ButtonDefault from './elements/ButtonDefault.vue'
