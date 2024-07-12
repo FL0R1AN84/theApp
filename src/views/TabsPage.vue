@@ -30,7 +30,7 @@
           <ion-label>Calc</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button id="open-scanner" href="/tabs/tab5" tab="tab5">
+        <ion-tab-button id="open-scanner" href="/tabs/tab5">
           <ion-icon :icon="qrCodeOutline" aria-hidden="true" />
           <ion-label>Scanner</ion-label>
         </ion-tab-button>
