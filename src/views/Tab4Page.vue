@@ -8,13 +8,13 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <CalculateAlert title="Calc&ALert" trigger="open-card-modal" />
+        <CalculateAlert />
       </ion-content>
     </ion-content>
   </ion-page>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 import CalculateAlert from '@/components/CalculateAlert.vue'
 import HeaderDefault from '@/components/elements/HeaderDefault.vue'
 import {
