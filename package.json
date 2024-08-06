@@ -32,7 +32,7 @@
     "mapbox-gl": "3.5.2",
     "vue": "3.4.36",
     "vue-qrcode-reader": "5.5.7",
-    "vue-router": "4.4.2"
+    "vue-router": "4.4.3"
   },
   "devDependencies": {
     "@capacitor/cli": "6.1.1",
