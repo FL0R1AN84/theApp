@@ -80,7 +80,7 @@ const presentErrorToast = async (message: string) => {
   const toast = await toastController.create({
     message: message,
     duration: 2500,
-    position: 'top',
+    position: 'bottom',
     color: 'danger'
   })
   await toast.present()
